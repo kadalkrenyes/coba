@@ -29,7 +29,7 @@ for($i=24793;$i<100000;$i++){
     
     $ch = curl_init();
     
-    curl_setopt($ch, CURLOPT_URL, "https://api.indkota.com/Content/Content/read?content_id=".$contentId."&lang=indonesian&member_token=NjIwODIyMjEzMDk2MDMtLXx8LS01YTA2ODQ4NmJjZTRkNjFjYTA5OTI0OTNkNTQ4NGE2Ng%3D%3D&device_id=49b99d6f9c16428e");
+    curl_setopt($ch, CURLOPT_URL, "https://api.indkota.com/Content/Content/read?content_id=".$contentId."&lang=indonesian&member_token=NjIwODk1MTAyNTEzMzItLXx8LS0xZTc1NmQzMDJhM2EyYjEyOTBmODY3YzkyMTMxMTQ0Mw%3D%3D&device_id=78%3A02%3Af8%3Afb%3A41%3A9a");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
     
